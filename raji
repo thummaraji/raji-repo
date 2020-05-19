@@ -1,0 +1,14 @@
+git log --oneline
+git log -3(resent commits)
+git log -- author=name
+git log --author=name --oneline
+git log --author name --oneline -2(any number)
+git log --after=2020-05-16
+          (since)
+git log --before=2020-05-19
+          (until)
+git log --after="2020-05-16 20:10" --before="2020-05-19  7:30"
+git log --grep="raji" (label name)	
+git log --filename
+	  
+		  
